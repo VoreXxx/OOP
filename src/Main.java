@@ -8,7 +8,7 @@ public class Main {
                     85, 65, 70);
 
             Hufflepuff zacharias = new Hufflepuff("Zachrias", 88, 90,
-                    80, 30, 98);
+                    80, 32, 98);
             Hufflepuff sedrick = new Hufflepuff("Sedrick",92, 83,
                     95, 87, 65);
             Hufflepuff justin = new Hufflepuff("Justin",90, 87,

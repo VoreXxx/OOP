@@ -23,10 +23,10 @@ public abstract class Hogwarts {
     public void compareMagic (Hogwarts student){
             if (this.getMagicPower() + this.getTransgession()
                     > student.getMagicPower() + student.getTransgession()) {
-                System.out.println(this.getName() + " has a greater magical power than "
+                System.out.println(this.getName() + ", has a greater magical power than "
                         + student.getName());
             } else {
-                System.out.println(student.getName() + " has a greater magical power than "
+                System.out.println(student.getName() + ", has a greater magical power than "
                         + this.getName());
             }
         }

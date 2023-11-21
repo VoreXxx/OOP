@@ -26,11 +26,11 @@ public class Grifindor extends Hogwarts {
         int totalStudent1 = this.getBravery() + this.getHonor() + this.getNobility();
         int totalStudent2 = student.getBravery() + student.getHonor() + student.getNobility();
         if (totalStudent1 > totalStudent2) {
-            System.out.println(this.getName() + " " + totalStudent1 + " is a better student than "
-                    + student.getName() + " " + totalStudent2);
+            System.out.println(this.getName() + ": " + totalStudent1 + " is a better student than "
+                    + student.getName() + ": " + totalStudent2);
         } else {
-            System.out.println(student.getName() + " " + totalStudent2 + " is a better student than "
-                    + this.getName() + " " + totalStudent1);
+            System.out.println(student.getName() + ": " + totalStudent2 + " is a better student than "
+                    + this.getName() + ": " + totalStudent1);
         }
     }
     @Override

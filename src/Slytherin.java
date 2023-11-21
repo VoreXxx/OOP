@@ -41,11 +41,11 @@ public class Slytherin extends Hogwarts{
         int totalStudent2 = student.getCunning() + student.getDetermination() +
                 student.getAmbition() + student.getResourcefulness() + student.getThirstPower();
         if (totalStudent1 > totalStudent2) {
-            System.out.println(this.getName() + " " + totalStudent1 + " is a better student than "
-                    + student.getName() + " " + totalStudent2);
+            System.out.println(this.getName() + ": " + totalStudent1 + " is a better student than "
+                    + student.getName() + ": " + totalStudent2);
         } else {
-            System.out.println(student.getName() + " " + totalStudent2 + " is a better student than "
-                    + this.getName() + " " + totalStudent1);
+            System.out.println(student.getName() + ": " + totalStudent2 + " is a better student than "
+                    + this.getName() + ": " + totalStudent1);
         }
     }
     @Override

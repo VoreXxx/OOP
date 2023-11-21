@@ -26,11 +26,11 @@ public class Hufflepuff extends Hogwarts{
         int totalStudent1 = this.getHardworking() + this.getLoyal() + this.getHonest();
         int totalStudent2 = student.getHardworking() + student.getLoyal() + student.getHonest();
         if (totalStudent1 > totalStudent2) {
-            System.out.println(this.getName() + " " + totalStudent1 + " is a better student than "
-                    + student.getName() + " " + totalStudent2);
+            System.out.println(this.getName() + ": " + totalStudent1 + " is a better student than "
+                    + student.getName() + ": " + totalStudent2);
         } else {
-            System.out.println(student.getName() + " " + totalStudent2 + " is a better student than "
-                    + this.getName() + " " + totalStudent1);
+            System.out.println(student.getName() + ": " + totalStudent2 + " is a better student than "
+                    + this.getName() + ": " + totalStudent1);
         }
     }
 
